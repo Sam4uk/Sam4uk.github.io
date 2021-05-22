@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Tags on Sam4uk</title>
+    <link>http://sam4uk.site/tags/</link>
+    <description>Recent content in Tags on Sam4uk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <managingEditor>sto.ukr.net@gmail.com (Sam4uk)</managingEditor>
+    <webMaster>sto.ukr.net@gmail.com (Sam4uk)</webMaster>
+    <copyright>©2019-2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://sam4uk.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>bash</title>
+        <link>http://sam4uk.site/tags/bash/</link>
+        <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/bash/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>linux</title>
+        <link>http://sam4uk.site/tags/linux/</link>
+        <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>terminal</title>
+        <link>http://sam4uk.site/tags/terminal/</link>
+        <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/terminal/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>zsh</title>
+        <link>http://sam4uk.site/tags/zsh/</link>
+        <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/zsh/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ibus</title>
+        <link>http://sam4uk.site/tags/ibus/</link>
+        <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/ibus/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>mint</title>
+        <link>http://sam4uk.site/tags/mint/</link>
+        <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/mint/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>zoom</title>
+        <link>http://sam4uk.site/tags/zoom/</link>
+        <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/zoom/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>C</title>
+        <link>http://sam4uk.site/tags/c/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/c/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>C#</title>
+        <link>http://sam4uk.site/tags/c#/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/c#/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>clang-format</title>
+        <link>http://sam4uk.site/tags/clang-format/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/clang-format/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Cpp</title>
+        <link>http://sam4uk.site/tags/cpp/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/cpp/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>java</title>
+        <link>http://sam4uk.site/tags/java/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/java/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>javascript</title>
+        <link>http://sam4uk.site/tags/javascript/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/javascript/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>proto</title>
+        <link>http://sam4uk.site/tags/proto/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/proto/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>blog</title>
+        <link>http://sam4uk.site/tags/blog/</link>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/blog/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>github pages</title>
+        <link>http://sam4uk.site/tags/github-pages/</link>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/github-pages/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>hugo</title>
+        <link>http://sam4uk.site/tags/hugo/</link>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/hugo/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>personal brand</title>
+        <link>http://sam4uk.site/tags/personal-brand/</link>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        
+        <guid>http://sam4uk.site/tags/personal-brand/</guid>
+        <description></description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

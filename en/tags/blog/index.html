@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1453,9 +1453,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1545,6 +1543,18 @@ if (!doNotTrack) {
 
       
         <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
           <a href="/en/about">Про мене</a>
         </li>
       
@@ -1617,6 +1627,14 @@ if (!doNotTrack) {
   
   
   <a href="/en/posts" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Дописи</a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
   
   
   
@@ -1817,6 +1835,19 @@ if (!doNotTrack) {
         
         
             <span class="tag">
+                <a href="/en/tags/c#/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        C#
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
                 <a href="/en/tags/clang-format/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
                         clang-format
@@ -1861,7 +1892,7 @@ if (!doNotTrack) {
                         hugo
                     </span>
                     <span class="taxo__num" dir="auto">
-                        1
+                        2
                     </span>
                 </a>
             </span>
@@ -1882,9 +1913,22 @@ if (!doNotTrack) {
         
         
             <span class="tag">
-                <a href="/en/tags/index/" class="is-tags taxo__link" data-dir="ltr">
+                <a href="/en/tags/java/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
-                        index
+                        java
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/tags/javascript/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        javascript
                     </span>
                     <span class="taxo__num" dir="auto">
                         1
@@ -1924,6 +1968,19 @@ if (!doNotTrack) {
                 <a href="/en/tags/personal-brand/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
                         personal brand
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/tags/proto/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        proto
                     </span>
                     <span class="taxo__num" dir="auto">
                         1
@@ -1991,7 +2048,7 @@ if (!doNotTrack) {
                         hugo
                     </span>
                     <span class="taxo__num" dir="auto">
-                        1
+                        2
                     </span>
                 </a>
             </span>
@@ -2021,6 +2078,19 @@ if (!doNotTrack) {
                 Series
             </a>
         </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/series/demo/" class="is-series taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        DEMO
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
         
         
         
@@ -2139,12 +2209,46 @@ if (!doNotTrack) {
         
       
         
+      
+        
         
           
             
               <a href="http://sam4uk.site/en/tags/blog/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
+        
+      
+        
+      
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+        
+          
+            
+              <a href="http://sam4uk.site/tags/blog/" data-lang="uk" class="dropdown-item">Українська</a>
+            
+          
+        
+      
+    
+      
+      
+        
+        
+          
+            
+          
+        
+      
         
       
         

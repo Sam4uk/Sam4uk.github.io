@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1453,9 +1453,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1534,6 +1532,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item ">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item active">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1624,6 +1634,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down active" dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1689,10 +1707,10 @@ if (!doNotTrack) {
           <span class="archive__meta" data-ani="true">
             
               <span class="archive__type">posts</span>
-              <span class="archive__date">Dec 7</span>
+              <span class="archive__date">Dec 8</span>
             
           </span>
-          <a href="http://sam4uk.site/en/posts/using-clnag-format/" class="archive__title" data-title-wrap="wrap" data-dir="ltr">Форматуванняя коду ClangFormat</a>        
+          <a href="http://sam4uk.site/en/posts/clang-format-style-options/" class="archive__title" data-title-wrap="wrap" data-dir="ltr">Clang-Format</a>        
         </li>
         
         <li class="archive__li" data-dir="ltr">
@@ -1713,36 +1731,11 @@ if (!doNotTrack) {
         <li class="archive__li" data-dir="ltr">
           <span class="archive__meta" data-ani="true">
             
-              <span class="archive__type">gallery</span>
-              <span class="archive__date">Oct 31</span>
+              <span class="archive__type">posts</span>
+              <span class="archive__date">Dec 18</span>
             
           </span>
-          <a href="http://sam4uk.site/en/gallery/photo/" class="archive__title" data-title-wrap="wrap" data-dir="ltr">Photo</a>        
-        </li>
-        
-        <li class="archive__li" data-dir="ltr">
-          <span class="archive__meta" data-ani="true">
-            
-              <span class="archive__type">gallery</span>
-              <span class="archive__date">Oct 31</span>
-            
-          </span>
-          <a href="http://sam4uk.site/en/gallery/cartoon/" class="archive__title" data-title-wrap="wrap" data-dir="ltr">Cartoon</a>        
-        </li>
-        
-      </ul>
-    
-      <span class="archive__key" data-ani="true">0001</span>
-      <ul class="archive__ul" data-dir="ltr">
-        
-        <li class="archive__li" data-dir="ltr">
-          <span class="archive__meta" data-ani="true">
-            
-              <span class="archive__type">contact</span>
-              <span class="archive__date">Jan 1</span>
-            
-          </span>
-          <a href="http://sam4uk.site/en/contact/" class="archive__title" data-title-wrap="wrap" data-dir="ltr">Contact Me</a>        
+          <a href="http://sam4uk.site/en/posts/syntax-highlight/" class="archive__title" data-title-wrap="wrap" data-dir="ltr">Підсвідка синтаксису</a>        
         </li>
         
       </ul>
@@ -1789,6 +1782,8 @@ if (!doNotTrack) {
         
       
         
+      
+        
         
           
             
@@ -1799,6 +1794,22 @@ if (!doNotTrack) {
       
         
       
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+        
+          
+            
+              <a href="http://sam4uk.site/archive/" data-lang="uk" class="dropdown-item">Українська</a>
+            
+          
         
       
     

@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1453,9 +1453,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1534,6 +1532,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item ">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1624,6 +1634,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1643,7 +1661,7 @@ if (!doNotTrack) {
         <span class="terms__categories">
           hugo
         </span>
-        <span class="terms__len">(1)</span>
+        <span class="terms__len">(2)</span>
       </a>
     
     
@@ -1692,6 +1710,8 @@ if (!doNotTrack) {
         
       
         
+      
+        
         
           
             
@@ -1702,42 +1722,6 @@ if (!doNotTrack) {
       
         
       
-        
-      
-    
-      
-      
-        
-      
-        
-      
-        
-        
-          
-            
-              <a href="http://sam4uk.site/uk_ua/categories/" data-lang="uk_ua" class="dropdown-item">Українська</a>
-            
-          
-        
-      
-        
-      
-    
-      
-      
-        
-        
-          
-            
-          
-        
-      
-        
-      
-        
-      
-        
-      
     
       
       
@@ -1751,7 +1735,41 @@ if (!doNotTrack) {
         
           
             
+              <a href="http://sam4uk.site/categories/" data-lang="uk" class="dropdown-item">Українська</a>
+            
           
+        
+      
+    
+      
+      
+        
+        
+          
+            
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+      
+        
+      
+        
+        
+          
+            
+          
+        
+      
+        
+      
         
       
     

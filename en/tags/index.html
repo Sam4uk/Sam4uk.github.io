@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1453,9 +1453,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1534,6 +1532,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item ">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1624,6 +1634,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1666,6 +1684,15 @@ if (!doNotTrack) {
     
     
     
+      <a href="/en/tags/c#/" class="terms__item is-small">
+        <span class="terms__tags">
+          C#
+        </span>
+        <span class="terms__len">(1)</span>
+      </a>
+    
+    
+    
       <a href="/en/tags/clang-format/" class="terms__item is-small">
         <span class="terms__tags">
           clang-format
@@ -1697,7 +1724,7 @@ if (!doNotTrack) {
         <span class="terms__tags">
           hugo
         </span>
-        <span class="terms__len">(1)</span>
+        <span class="terms__len">(2)</span>
       </a>
     
     
@@ -1711,9 +1738,18 @@ if (!doNotTrack) {
     
     
     
-      <a href="/en/tags/index/" class="terms__item is-small">
+      <a href="/en/tags/java/" class="terms__item is-small">
         <span class="terms__tags">
-          index
+          java
+        </span>
+        <span class="terms__len">(1)</span>
+      </a>
+    
+    
+    
+      <a href="/en/tags/javascript/" class="terms__item is-small">
+        <span class="terms__tags">
+          javascript
         </span>
         <span class="terms__len">(1)</span>
       </a>
@@ -1741,6 +1777,15 @@ if (!doNotTrack) {
       <a href="/en/tags/personal-brand/" class="terms__item is-small">
         <span class="terms__tags">
           personal brand
+        </span>
+        <span class="terms__len">(1)</span>
+      </a>
+    
+    
+    
+      <a href="/en/tags/proto/" class="terms__item is-small">
+        <span class="terms__tags">
+          proto
         </span>
         <span class="terms__len">(1)</span>
       </a>
@@ -1809,6 +1854,8 @@ if (!doNotTrack) {
         
       
         
+      
+        
         
           
             
@@ -1819,42 +1866,6 @@ if (!doNotTrack) {
       
         
       
-        
-      
-    
-      
-      
-        
-      
-        
-      
-        
-        
-          
-            
-              <a href="http://sam4uk.site/uk_ua/tags/" data-lang="uk_ua" class="dropdown-item">Українська</a>
-            
-          
-        
-      
-        
-      
-    
-      
-      
-        
-        
-          
-            
-          
-        
-      
-        
-      
-        
-      
-        
-      
     
       
       
@@ -1868,7 +1879,41 @@ if (!doNotTrack) {
         
           
             
+              <a href="http://sam4uk.site/tags/" data-lang="uk" class="dropdown-item">Українська</a>
+            
           
+        
+      
+    
+      
+      
+        
+        
+          
+            
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+      
+        
+      
+        
+        
+          
+            
+          
+        
+      
+        
+      
         
       
     

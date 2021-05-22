@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>blog on Sam4uk</title>
+    <link>http://sam4uk.site/tags/blog/</link>
+    <description>Recent content in blog on Sam4uk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <managingEditor>sto.ukr.net@gmail.com (Sam4uk)</managingEditor>
+    <webMaster>sto.ukr.net@gmail.com (Sam4uk)</webMaster>
+    <copyright>©2019-2021, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://sam4uk.site/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Десять кроків до особистого блогу на Github Pages.</title>
+        <link>http://sam4uk.site/posts/10-steps-to-bloging/</link>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        <atom:modified>Mon, 07 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>http://sam4uk.site/posts/10-steps-to-bloging/</guid>
+        <description>Крок перший. Підготовка інструментів. Крок другий. Репозиторій на Github. Настав час зареєструватися на GitHub, якщо ви цьго ще не зробили. Після створи репозиторій. Ім&#39;я репозиторію має відповідати шаблону &amp;lt;OWNER&amp;gt;.github.io, де &amp;lt;OWNER&amp;gt;, тут та надалі ім&#39;я твого облікового запису чи організації, якій належить репозиторій. Репозиторій має бути порожнім та публічним. Сняти галочку з Initialize this repository with a README, а перемикачі Add .gitgnore та Add a license виставити в положення None.</description>
+        
+        <dc:creator>Vitaly Khabarov</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+            
+              <category>github pages</category>
+            
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>personal brand</category>
+            
+          
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+            
+              <category>tutorials</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

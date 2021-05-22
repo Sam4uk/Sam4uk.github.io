@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1335,9 +1335,9 @@
 <meta name="description" content="Я не ставлю перед собою мету комусь і щось донести через мережу." />
 
 
-<meta name="created" content="2020-12-07T00:00:00&#43;0000">
-<meta name="modified" content="2020-12-07T00:00:00&#43;0000">
-<meta property="article:published_time" content="2020-12-07T00:00:00&#43;0000">
+<meta name="created" content="2020-12-08T00:00:00&#43;0000">
+<meta name="modified" content="2020-12-08T00:00:00&#43;0000">
+<meta property="article:published_time" content="2020-12-08T00:00:00&#43;0000">
 
 <meta name="author" content="Sam4uk">
 
@@ -1453,9 +1453,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1534,6 +1532,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item ">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1624,6 +1634,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1684,20 +1702,18 @@ if (!doNotTrack) {
 
     <div class="summary-classic__content">
       <header>
-        <h5 class="title h5"><a href='http://sam4uk.site/en/posts/using-clnag-format/'>Форматуванняя коду ClangFormat</a> </h5>
+        <h5 class="title h5"><a href='http://sam4uk.site/en/posts/clang-format-style-options/'>Clang-Format</a> </h5>
         <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Dec 7, 2020 </time>
+          <time title="Written At" dir="ltr">📅&nbsp;Dec 8, 2020 </time>
           
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;3&nbsp;min read </span>
-          
-          &middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Lei Mao</span>
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;7&nbsp;min read </span>
           
         </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
           
-            Форматування коду C/C&#43;&#43; за допомогою Clang-Format
+            Параметри стилю Clang-Format
           
         </div>
       </div>
@@ -1759,7 +1775,7 @@ if (!doNotTrack) {
     
         
         <li class="sidebar-recent">
-            <a href="/en/posts/using-clnag-format/" class="sidebar-recent__title p1">Форматуванняя коду ClangFormat</a>
+            <a href="/en/posts/clang-format-style-options/" class="sidebar-recent__title p1">Clang-Format</a>
         </li>
         
         <hr class="hr-fade sidebar-hr" />
@@ -1817,6 +1833,19 @@ if (!doNotTrack) {
         
         
             <span class="tag">
+                <a href="/en/tags/c#/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        C#
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
                 <a href="/en/tags/clang-format/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
                         clang-format
@@ -1861,7 +1890,7 @@ if (!doNotTrack) {
                         hugo
                     </span>
                     <span class="taxo__num" dir="auto">
-                        1
+                        2
                     </span>
                 </a>
             </span>
@@ -1882,9 +1911,22 @@ if (!doNotTrack) {
         
         
             <span class="tag">
-                <a href="/en/tags/index/" class="is-tags taxo__link" data-dir="ltr">
+                <a href="/en/tags/java/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
-                        index
+                        java
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/tags/javascript/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        javascript
                     </span>
                     <span class="taxo__num" dir="auto">
                         1
@@ -1924,6 +1966,19 @@ if (!doNotTrack) {
                 <a href="/en/tags/personal-brand/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
                         personal brand
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/tags/proto/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        proto
                     </span>
                     <span class="taxo__num" dir="auto">
                         1
@@ -1991,7 +2046,7 @@ if (!doNotTrack) {
                         hugo
                     </span>
                     <span class="taxo__num" dir="auto">
-                        1
+                        2
                     </span>
                 </a>
             </span>
@@ -2021,6 +2076,19 @@ if (!doNotTrack) {
                 Series
             </a>
         </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/series/demo/" class="is-series taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        DEMO
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
         
         
         
@@ -2139,12 +2207,46 @@ if (!doNotTrack) {
         
       
         
+      
+        
         
           
             
               <a href="http://sam4uk.site/en/tags/c/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
+        
+      
+        
+      
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+        
+          
+            
+              <a href="http://sam4uk.site/tags/c/" data-lang="uk" class="dropdown-item">Українська</a>
+            
+          
+        
+      
+    
+      
+      
+        
+        
+          
+            
+          
+        
+      
         
       
         

@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Syntax highlighting – Sam4uk</title>
+    <title>Підсвідка синтаксису – Sam4uk</title>
     
 
 
@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1330,7 +1330,7 @@
 
 
     
-<meta name="description" content="Syntax highlighting test" />
+<meta name="description" content="Демонстрація підсвідки синтаксису" />
 
 
 <meta name="keywords" content="hugo">
@@ -1339,24 +1339,14 @@
 <meta name="modified" content="2019-12-18T10:33:41&#43;0900">
 <meta property="article:published_time" content="2019-12-18T10:33:41&#43;0900">
 
-<meta name="author" content="Jeus">
-<meta property="article:author" content="http://sam4uk.site/en/posts/syntax-highlight/@Jeus">
+<meta name="author" content="Sam4uk">
 
 
 <meta property="og:site_name" content="Sam4uk">
-<meta property="og:title" content="Syntax highlighting">
+<meta property="og:title" content="Підсвідка синтаксису">
 <meta property="og:url" content="http://sam4uk.site/en/posts/syntax-highlight/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Syntax highlighting test">
-
-  
-    <meta property="og:image" content="http://sam4uk.site/images/feature2/color-palette.png">
-    <meta property="og:image:url" content="http://sam4uk.site/images/feature2/color-palette.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Sam4uk">
-    <meta property="twitter:title" content="Syntax highlighting">
-    <meta property="twitter:description" content="Syntax highlighting test">
-  
+<meta property="og:description" content="Демонстрація підсвідки синтаксису">
 
 <meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1393,17 +1383,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Syntax highlighting",
+    "headline": "Підсвідка синтаксису",
     "datePublished": "2019-12-18T10:33:41+09:00",
     "dateModified": "2019-12-18T10:33:41+09:00",
     "url" : "http://sam4uk.site/en/posts/syntax-highlight/",
-    "description": "Syntax highlighting test",
+    "description": "Демонстрація підсвідки синтаксису",
     "keywords": ["hugo"],
-    "image" : "http://sam4uk.site/images/feature2/color-palette.png",
-    "author": {
-      "@type": "Person",
-      "name": "Jeus"
-    },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://sam4uk.site/"
@@ -1471,9 +1456,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1552,6 +1535,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item active">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1642,6 +1637,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1677,7 +1680,7 @@ if (!doNotTrack) {
   
   <li  class="is-active" >
     
-      <span>Syntax highlighting</span>
+      <span>Підсвідка синтаксису</span>
     
   </li>
   
@@ -1689,7 +1692,7 @@ if (!doNotTrack) {
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">Syntax highlighting</h2>
+    <h2 class="single__title" data-ani="true">Підсвідка синтаксису</h2>
     <h3 class="single__subtitle"></h3>
     <div class="single__meta">
       
@@ -1697,8 +1700,6 @@ if (!doNotTrack) {
   <time class="single__info" title="Written At">📅&nbsp;Dec 18, 2019 </time>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
-  
-  &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🎅&nbsp;Jeus</span>
   
   <span class="single__info">
     
@@ -1718,9 +1719,10 @@ if (!doNotTrack) {
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="code-syntax-highlighting">Code Syntax Highlighting</h2>
-<p>Verify the following code blocks render as code blocks and highlight properly.</p>
-<p>More about tuning syntax highlighting is the <a href="https://gohugo.io/content-management/syntax-highlighting/">Hugo documentation</a>.</p>
+      <h2 id="підсвідка-синтаксису-коду">Підсвідка синтаксису коду</h2>
+<!-- Verify the following code blocks render as code blocks and highlight properly. 
+
+More about tuning syntax highlighting is the [Hugo documentation](https://gohugo.io/content-management/syntax-highlighting/). -->
 <h3 id="diff">Diff</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2480,7 +2482,7 @@ if (!doNotTrack) {
     </div>
     <div class="whoami__title">
       
-        Jeus
+        Sam4uk
       
     </div>
     <div class="whoami__desc">
@@ -2532,17 +2534,10 @@ if (!doNotTrack) {
 <nav class="pagination-single">
   
     
-      <a href="http://sam4uk.site/en/posts/math-typesetting/" class="pagination-single__left">
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
-        </div>
-        <div class="pagination-single__left-title">Math Typesetting</div>      
-      </a>
-    
     <div class="grow"></div>
     
-      <a href="http://sam4uk.site/en/posts/rich-content/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">Rich Content</div>
+      <a href="http://sam4uk.site/en/posts/10-steps-to-bloging/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">Десять кроків до особистого блогу на Github Pages.</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -2904,7 +2899,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#code-syntax-highlighting">Code Syntax Highlighting</a>
+    <li><a href="#підсвідка-синтаксису-коду">Підсвідка синтаксису коду</a>
       <ul>
         <li><a href="#diff">Diff</a></li>
         <li><a href="#makefile">Makefile</a></li>
@@ -3543,6 +3538,24 @@ document.addEventListener('DOMContentLoaded', function () {
           
         
       
+        
+      
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+        
+          
+            
+              <a href="http://sam4uk.site/posts/syntax-highlight/" data-lang="uk" class="dropdown-item">Українська</a>
+            
+          
         
       
     

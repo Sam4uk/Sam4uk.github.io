@@ -14,22 +14,24 @@
     <managingEditor>sto.ukr.net@gmail.com (Sam4uk)</managingEditor>
     <webMaster>sto.ukr.net@gmail.com (Sam4uk)</webMaster>
     <copyright>©2019-2021, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://sam4uk.site/en/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Форматуванняя коду ClangFormat</title>
-        <link>http://sam4uk.site/en/posts/using-clnag-format/</link>
-        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+        <title>Clang-Format</title>
+        <link>http://sam4uk.site/en/posts/clang-format-style-options/</link>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
         <author>sto.ukr.net@gmail.com (Sam4uk)</author>
-        <atom:modified>Mon, 07 Dec 2020 00:00:00 +0000</atom:modified>
-        <guid>http://sam4uk.site/en/posts/using-clnag-format/</guid>
-        <description>Вступ Коли над проектом працює кілька розробників слід дотримуватись правил форматування коду. Існують цілі збірники з правилами, як треба форматувати код. А якщо над кодом працює один розробник (у випадках пет проектів) код теж потрібно форматувати. Щоб якщо ви забажаєте показати своє творіння комусь код не має виглядати, як після обфускації. Процес форматування коду можна доручити якійсь утиліті, яка слідкуватиме за розміром відступу, або за довжиною рядка. А за вами лишиться чорнова робота по створенню коду та не забувати ставити розділові знаки.</description>
+        <atom:modified>Tue, 08 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>http://sam4uk.site/en/posts/clang-format-style-options/</guid>
+        <description>Параметри стилю clang-format Параметри стилю clang-format описують налаштовувані параметри стилю форматування, що підтримуються LibFormat та ClangFormat .
+Використовуючи утиліту командного рядка clang-format або функції clang::format::reformat(...) з коду, можна або використовувати один із заздалегідь визначених стилів ( LLVM , Google , Chromium , Mozilla , WebKit , Microsoft ) або створити власний стиль шляхом налаштування конкретних параметрів стилю.
+Налаштування стилю clang-format clang-format підтримує два способи надання власних параметрів стилю: безпосередньо вкажіть конфігурацію стилю в опції командного рядка -style = або використовуйте файл -style = та додайте конфігурацію стилю у файл .</description>
         
-        <dc:creator>Lei Mao</dc:creator>
+        <dc:creator>Sam4uk</dc:creator>
         
         
         
@@ -45,6 +47,22 @@
           
             
               <category>clang-format</category>
+            
+          
+            
+              <category>C#</category>
+            
+          
+            
+              <category>java</category>
+            
+          
+            
+              <category>javascript</category>
+            
+          
+            
+              <category>proto</category>
             
           
         

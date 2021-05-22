@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1343,7 +1343,7 @@
 
 
 <meta property="og:site_name" content="Sam4uk">
-<meta property="og:title" content="">
+<meta property="og:title" content="Sam4uk">
 <meta property="og:url" content="http://sam4uk.site/en/">
 <meta property="og:type" content="website">
 <meta property="og:description" content="Я не ставлю перед собою мету комусь і щось донести через мережу.">
@@ -1384,7 +1384,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "url" : "http://sam4uk.site/en/",
-    "name": "",
+    "name": "Sam4uk",
     "description": "Я не ставлю перед собою мету комусь і щось донести через мережу.",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1453,9 +1453,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1534,6 +1532,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item ">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1624,6 +1634,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1632,38 +1650,7 @@ if (!doNotTrack) {
             
 <header class="header ">
     
-          
-  
-    
-  
-    
-      <div class="site-header basicflex-column site-header__align-center" data-ani="true" style="width: 100%; height: 200px; padding: 0px 50px;">
         
-                    
-          
-          <div class="site-header__title site-header__title--shadow" style="font-size: 44px; ;">
-            Sam4uk
-          </div>
-          
-        
-        
-          <div style="height: 16px"></div>
-        
-        
-           
-          <div class="site-header__subtitle" style="font-size: 18px; " data-cursive="true">
-            Я просто люблю програмувати та паяти
-          </div>
-                
-        
-      </div>
-    
-  
-    
-  
-    
-  
-
     
 </header>
 
@@ -1694,6 +1681,72 @@ if (!doNotTrack) {
             
             
             
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://sam4uk.site/en/posts/syntax-highlight/'>📌&nbsp;Підсвідка синтаксису</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Dec 18, 2019 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;4&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            Демонстрація підсвідки синтаксису
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://sam4uk.site/en/posts/clang-format-style-options/'>Clang-Format</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Dec 8, 2020 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;7&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            Параметри стилю Clang-Format
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+
             
                 
   <article class="summary-classic" data-ani="true">
@@ -1783,119 +1836,6 @@ if (!doNotTrack) {
         <div class="summary-classic__text p2">
           
             Покрокова інструкція по створенню безкоштовного блогу або сайту на Github Pages з використанням Hugo для початківців.
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-
-            
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" >
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='http://sam4uk.site/en/posts/using-clnag-format/'>Форматуванняя коду ClangFormat</a> </h5>
-        <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Dec 7, 2020 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;3&nbsp;min read </span>
-          
-          &middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Lei Mao</span>
-          
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            Форматування коду C/C&#43;&#43; за допомогою Clang-Format
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-
-            
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" >
-
-    
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
-      <a href="http://sam4uk.site/en/gallery/cartoon/">
-        <img data-src="/images/feature2/bam.png" alt="Cartoon" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
-      </a>
-    </div>
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='http://sam4uk.site/en/gallery/cartoon/'>Cartoon</a> </h5>
-        <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Oct 31, 2019 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
-          
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            cartoon gallery
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-
-            
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" >
-
-    
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
-      <a href="http://sam4uk.site/en/gallery/photo/">
-        <img data-src="/images/feature2/gallery.png" alt="Photo" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
-      </a>
-    </div>
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='http://sam4uk.site/en/gallery/photo/'>Photo</a> </h5>
-        <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Oct 31, 2019 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
-          
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            photo gallery
           
         </div>
       </div>
@@ -2063,8 +2003,12 @@ if (!doNotTrack) {
 
         
         <section class="sidebar-recent">
-            <a href="/en/posts/" class="sidebar-recent__title p2">Дописи</a>
+            <a href="/en/posts/" class="sidebar-recent__title p2">Posts</a>
             <ul class="sidebar-recent__ul">
+                
+                    <li>
+                        <a href="/en/posts/clang-format-style-options/" class="sidebar-recent__a p2">Clang-Format</a>
+                    </li>
                 
                     <li>
                         <a href="/en/posts/oh_my_zsh/" class="sidebar-recent__a p2">Підкорюємо zsh</a>
@@ -2079,23 +2023,7 @@ if (!doNotTrack) {
                     </li>
                 
                     <li>
-                        <a href="/en/posts/using-clnag-format/" class="sidebar-recent__a p2">Форматуванняя коду ClangFormat</a>
-                    </li>
-                
-            </ul>
-        </section>
-        <hr class="hr-fade sidebar-hr" />
-        
-        <section class="sidebar-recent">
-            <a href="/en/gallery/" class="sidebar-recent__title p2">Galleries</a>
-            <ul class="sidebar-recent__ul">
-                
-                    <li>
-                        <a href="/en/gallery/cartoon/" class="sidebar-recent__a p2">Cartoon</a>
-                    </li>
-                
-                    <li>
-                        <a href="/en/gallery/photo/" class="sidebar-recent__a p2">Photo</a>
+                        <a href="/en/posts/syntax-highlight/" class="sidebar-recent__a p2">Підсвідка синтаксису</a>
                     </li>
                 
             </ul>
@@ -2157,6 +2085,19 @@ if (!doNotTrack) {
         
         
             <span class="tag">
+                <a href="/en/tags/c#/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        C#
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
                 <a href="/en/tags/clang-format/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
                         clang-format
@@ -2201,7 +2142,7 @@ if (!doNotTrack) {
                         hugo
                     </span>
                     <span class="taxo__num" dir="auto">
-                        1
+                        2
                     </span>
                 </a>
             </span>
@@ -2222,9 +2163,22 @@ if (!doNotTrack) {
         
         
             <span class="tag">
-                <a href="/en/tags/index/" class="is-tags taxo__link" data-dir="ltr">
+                <a href="/en/tags/java/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
-                        index
+                        java
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/tags/javascript/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        javascript
                     </span>
                     <span class="taxo__num" dir="auto">
                         1
@@ -2264,6 +2218,19 @@ if (!doNotTrack) {
                 <a href="/en/tags/personal-brand/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
                         personal brand
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/tags/proto/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        proto
                     </span>
                     <span class="taxo__num" dir="auto">
                         1
@@ -2331,7 +2298,7 @@ if (!doNotTrack) {
                         hugo
                     </span>
                     <span class="taxo__num" dir="auto">
-                        1
+                        2
                     </span>
                 </a>
             </span>
@@ -2361,6 +2328,19 @@ if (!doNotTrack) {
                 Series
             </a>
         </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/en/series/demo/" class="is-series taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        DEMO
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
         
         
         
@@ -2491,6 +2471,8 @@ if (!doNotTrack) {
         
       
         
+      
+        
         
           
             
@@ -2501,42 +2483,6 @@ if (!doNotTrack) {
       
         
       
-        
-      
-    
-      
-      
-        
-      
-        
-      
-        
-        
-          
-            
-              <a href="http://sam4uk.site/uk_ua/" data-lang="uk_ua" class="dropdown-item">Українська</a>
-            
-          
-        
-      
-        
-      
-    
-      
-      
-        
-        
-          
-            
-          
-        
-      
-        
-      
-        
-      
-        
-      
     
       
       
@@ -2550,7 +2496,41 @@ if (!doNotTrack) {
         
           
             
+              <a href="http://sam4uk.site/" data-lang="uk" class="dropdown-item">Українська</a>
+            
           
+        
+      
+    
+      
+      
+        
+        
+          
+            
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+      
+        
+      
+        
+        
+          
+            
+          
+        
+      
+        
+      
         
       
     

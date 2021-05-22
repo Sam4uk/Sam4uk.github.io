@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>zsh on Sam4uk</title>
+    <link>http://sam4uk.site/tags/zsh/</link>
+    <description>Recent content in zsh on Sam4uk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <managingEditor>sto.ukr.net@gmail.com (Sam4uk)</managingEditor>
+    <webMaster>sto.ukr.net@gmail.com (Sam4uk)</webMaster>
+    <copyright>©2019-2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://sam4uk.site/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Підкорюємо zsh</title>
+        <link>http://sam4uk.site/posts/oh_my_zsh/</link>
+        <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+        <author>sto.ukr.net@gmail.com (Sam4uk)</author>
+        <atom:modified>Sun, 20 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>http://sam4uk.site/posts/oh_my_zsh/</guid>
+        <description>Вступ Коли я працював з Win системами я не любив командного
+інтерфейсу, що пропонувався у цій системі. Командний
+рядок був монохромним та гнітючим - чорний та білий.
+Так&amp;hellip; Командний рядок можна тюнінгувати, але в дуже
+обмеженому діапазоні: змінити колір фону та шрифту,
+змінити розмір літер та їх гарнітуру і запрошення тай
+все.
+Я завжди боявся запускати на виконаня команди з cmd.
+Та взагалі вінда спонукає використовувати графічний
+інтерфейс. Майже все у вінді можна робити без</description>
+        
+        <dc:creator>Sam4uk</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>bash</category>
+            
+          
+            
+              <category>zsh</category>
+            
+          
+            
+              <category>terminal</category>
+            
+          
+        
+        
+          
+            
+              <category>tutorials</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

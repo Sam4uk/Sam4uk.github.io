@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1461,9 +1461,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1542,6 +1540,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item active">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1632,6 +1642,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1660,7 +1678,7 @@ if (!doNotTrack) {
   
   <li >
     
-      <a href="http://sam4uk.site/en/posts/" class="capitalize">Дописи</a>
+      <a href="http://sam4uk.site/en/posts/" class="capitalize">Posts</a>
     
   </li>
   
@@ -1732,78 +1750,27 @@ brew install hugo
 <p>Тепер у вас є репозиторій. В ньому ви будуте зберігати статті та налаштування блогу.</p>
 <h3 id="крок-третій-кодова-база">Крок третій. Кодова база.</h3>
 <p>Hugo генерує сайт на основі шаблонів, налаштувань та вихідного тексту. Створи основу нового сайту командою:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo new site &lt;OWNER&gt;.github.io
-</code></pre></td></tr></table>
-</div>
-</div><p>Ініціалізуйте git-репозиторій та підєднайте до Github'у. Для персональних сайтів виду <code>&lt;OWNER&gt;.github.io</code>, GitHub Pages відображує сайт з вітки <code>master</code>. Відка буде порожня, доки відсутній згенерований сайт. Виконайте команди:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">cd</span> &lt;OWNER&gt;.github.io
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo new site &lt;OWNER&gt;.github.io
+</code></pre></div><p>Ініціалізуйте git-репозиторій та підєднайте до Github'у. Для персональних сайтів виду <code>&lt;OWNER&gt;.github.io</code>, GitHub Pages відображує сайт з вітки <code>master</code>. Відка буде порожня, доки відсутній згенерований сайт. Виконайте команди:</p>
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">cd</span> &lt;OWNER&gt;.github.io
 git init
 git commit --allow-empty -m <span class="s2">&#34;Initializing master branch&#34;</span>
 git remote add origin git@github.com:&lt;OWNER&gt;/&lt;OWNER&gt;.github.io.git
 git push -u origin master
-</code></pre></td></tr></table>
-</div>
-</div><p>Саму кодову базу та вихдний код з якого генеруватиметься сайт, будемо зберігати у гілці <code>devel</code>. Так ми розділимо код і результуючий артефакт. Зможемо працювати з ними незалежно. Виконай команди:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">git checkout -b devel
+</code></pre></div><p>Саму кодову базу та вихдний код з якого генеруватиметься сайт, будемо зберігати у гілці <code>devel</code>. Так ми розділимо код і результуючий артефакт. Зможемо працювати з ними незалежно. Виконай команди:</p>
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">git checkout -b devel
 git add --all .
 git commit -m <span class="s1">&#39;Initial commit&#39;</span>
 git push -u origin devel
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="крок-четвертий-вибір-та-установка-стилю">Крок четвертий. Вибір та установка стилю.</h3>
+</code></pre></div><h3 id="крок-четвертий-вибір-та-установка-стилю">Крок четвертий. Вибір та установка стилю.</h3>
 <p>Обери довподоби своєму блогу стиль на <a href="https://themes.gohugo.io/">сайті тем Hugo</a>. Підєднай тему, що сподобалась як субмодуль git  команда виду, для прикладу використовуєтьс тема <code>dream-plus</code>:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">git submodule add git@github.com:UtkarshVerma/hugo-dream-plus.git themes/dream-plus
-</code></pre></td></tr></table>
-</div>
-</div><!-- Тему можешь скачать в директорию `<OWNER>.github.io/themes` или склонировать репозиторий с темой в ту же директорию. Я предпочитаю использовать субмодули. Темы можно легко обновлять из источника. Тему можно дополнить модулями в&nbsp;директории `<OWNER>.github.io/layouts`. Почитать о выборе между использование `git clone` или `git submodule` для тем Hugo можешь в [обсуждении](https://discourse.gohugo.io/t/adding-a-theme-as-a-submodule-or-clone/8789). -->
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">git submodule add git@github.com:UtkarshVerma/hugo-dream-plus.git themes/dream-plus
+</code></pre></div><!-- Тему можешь скачать в директорию `<OWNER>.github.io/themes` или склонировать репозиторий с темой в ту же директорию. Я предпочитаю использовать субмодули. Темы можно легко обновлять из источника. Тему можно дополнить модулями в&nbsp;директории `<OWNER>.github.io/layouts`. Почитать о выборе между использование `git clone` или `git submodule` для тем Hugo можешь в [обсуждении](https://discourse.gohugo.io/t/adding-a-theme-as-a-submodule-or-clone/8789). -->
 <h3 id="крок-пятий-налаштування-hugo">Крок п'ятий. налаштування Hugo.</h3>
 <p>Настав час налаштувати Hugo. Відредагуйте файл <code>config.toml</code> до наступного змісту, забудь відредагувати параметри під свій сайт:</p>
 <!-- # Язык сайта, для английского используй "en-us"
 languageCode = "ru-ru" -->
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># Адреса вашого сайту</span>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># Адреса вашого сайту</span>
 <span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;https://&lt;OWNER&gt;.github.io/&#34;</span>
 
 
@@ -1815,89 +1782,29 @@ languageCode = "ru-ru" -->
 
 <span class="c"># Сюди Hugo збереже згенерований сайт</span>
 <span class="nx">publishdir</span> <span class="p">=</span> <span class="s2">&#34;./public/&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="крок-шостий-директорія-для-публикації">Крок шостий. Директорія для публикації.</h3>
+</code></pre></div><h3 id="крок-шостий-директорія-для-публикації">Крок шостий. Директорія для публикації.</h3>
 <p>Вихідний коди та сам сайт зберігаються в різних відках. Перемикатися між ними та переносити зміни -  незручно. Тому підєднуємо вітку <code>master</code> в робосий каталог <code>public</code> командами:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">git worktree add -B master public origin/master
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">git worktree add -B master public origin/master
 <span class="nb">echo</span> <span class="s2">&#34;public&#34;</span> &gt;&gt; .gitignore
 git add .gitignore
 git commit -m <span class="s1">&#39;Add .gitignore&#39;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>Таку операцію доведеться повторювати при створенні робочого каталогу, на кожному робочому комп'ютері.<br />
+</code></pre></div><p>Таку операцію доведеться повторювати при створенні робочого каталогу, на кожному робочому комп'ютері.<br />
 Генерацію сайту можна передати CI-системі та забути про ручні зміни.</p>
 <h3 id="крок-сьомий-публікація-головної-сторінки">Крок сьомий. Публікація головної сторінки.</h3>
 <p>Пора вийти в світ з пісочниці. Для початку згенеруй сайт командою:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo
-</code></pre></td></tr></table>
-</div>
-</div><p>А тепер вивантажи його на GitHub командами:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">pushd</span> public
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo
+</code></pre></div><p>А тепер вивантажи його на GitHub командами:</p>
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">pushd</span> public
 git add .
 git commit -m <span class="s1">&#39;Add index page&#39;</span>
 git push
 <span class="nb">popd</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>І ось тут ваш сайт має стати доступним. Але черз невідомі мені причини GitHub Pages стабільно підхоплює новий сайт тільки після другого-третього комміту. Не розстроюйтесь, скоро ми його зробимо.</p>
+</code></pre></div><p>І ось тут ваш сайт має стати доступним. Але черз невідомі мені причини GitHub Pages стабільно підхоплює новий сайт тільки після другого-третього комміту. Не розстроюйтесь, скоро ми його зробимо.</p>
 <h3 id="крок-восьмий-перший-пост">Крок восьмий. Перший пост.</h3>
 <p>Створи перший пост командою:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo new posts/first-post.md
-</code></pre></td></tr></table>
-</div>
-</div><p>Hugo підготує шаблон нової сторінки. Відкрий файл <code>posts/first-post.md</code> та відредагуй його. На початку ви помітите блок з метаданими посту, після яких починається сам текст статті у форматі <code>markdown</code>, хоча є можливість використати інший формат <a href="https://gohugo.io/content-management/formats/">другой формат</a>.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="err">---</span>
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo new posts/first-post.md
+</code></pre></div><p>Hugo підготує шаблон нової сторінки. Відкрий файл <code>posts/first-post.md</code> та відредагуй його. На початку ви помітите блок з метаданими посту, після яких починається сам текст статті у форматі <code>markdown</code>, хоча є можливість використати інший формат <a href="https://gohugo.io/content-management/formats/">другой формат</a>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="err">---</span>
 <span class="c"># Назва статті</span>
 <span class="nx">title</span><span class="err">:</span> <span class="s2">&#34;Блог на Github Pages для чайників&#34;</span>
 
@@ -1916,9 +1823,7 @@ git push
 <span class="c"># Стислий опис статті</span>
 <span class="nx">summary</span><span class="err">:</span> <span class="s2">&#34;Покрокова інструкція по створенню безкоштовного блогу або сайту на Github Pages з використанням Hugo для початківців.&#34;</span>
 <span class="err">---</span>
-</code></pre></td></tr></table>
-</div>
-</div><!-- Конечно же, первый пост должен быть о том, как сделать свой собственный блог. Можешь взять за основу [исходный текст статьи, которую ты сейчас читаешь](https://raw.githubusercontent.com/vitkhab/vitkhab.pro/master/content/blog/2020-01-03-how-to-create-blog/index.md) ;) -->
+</code></pre></div><!-- Конечно же, первый пост должен быть о том, как сделать свой собственный блог. Можешь взять за основу [исходный текст статьи, которую ты сейчас читаешь](https://raw.githubusercontent.com/vitkhab/vitkhab.pro/master/content/blog/2020-01-03-how-to-create-blog/index.md) ;) -->
 <h3 id="крок-десятий">Крок десятий.</h3>
 <!-- Навигационное меню. -->
 <!-- Создай на сайте навигационное меню. Для этого добавь в файл `config.toml` строки:
@@ -1940,40 +1845,18 @@ git push
 Для добавления нового пункта, добавь еще один блок `[[menu.main]]` целиком.  -->
 <h3 id="крок-десятий-profit">Крок десятий. Profit!</h3>
 <p>Ми пройшли всю необхідну підготовчу роботу. Збережи зміни кодової бази:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">git add .
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">git add .
 git commit -m <span class="s1">&#39;Add index page, first post, navigation menu and config&#39;</span>
 git push
-</code></pre></td></tr></table>
-</div>
-</div><p>Згенеруй сайт та вивантаж зміни на Github.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo
+</code></pre></div><p>Згенеруй сайт та вивантаж зміни на Github.</p>
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">hugo
 
 <span class="nb">pushd</span> public
 git add .
 git commit -m <span class="s1">&#39;Publish first post&#39;</span>
 git push
 <span class="nb">popd</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>Зачекай кілька хвилин, доки GitHub Pages опрацює зміни. Зайти на персональний сайт <code>https://&lt;OWNER&gt;.github.io/</code> та насолоджуйся результатом!</p>
+</code></pre></div><p>Зачекай кілька хвилин, доки GitHub Pages опрацює зміни. Зайти на персональний сайт <code>https://&lt;OWNER&gt;.github.io/</code> та насолоджуйся результатом!</p>
 <h1 id="режим-pro-або-що-далі">Режим Pro або що далі?</h1>
 <p>А ділі потрібно автоматизувати генерацію сайту з допомогою CI, налаштувати красивий персональний домен, під'єднати коментарі та налаштувати систему аналітики GoogleAnalytics. Про це іншим разом</p>
 <p>Stay tuned!</p>
@@ -2252,16 +2135,31 @@ git push
     <section class="related">
     
     
+    <h1 class="related__title">
+      <hr class="hr-dots"/>
+      <div>
+        See Also
+      </div>
+      <hr class="hr-dots"/>
+    </h1>
+    <ul class="related-ul">
+        
+        <li>
+          <a href="/en/posts/syntax-highlight/" class="related__link">Підсвідка синтаксису</a>
+        </li>
+        
+    </ul>
+    
   </section>
     <div class="grow"></div>
 <nav class="pagination-single">
   
     
-      <a href="http://sam4uk.site/en/posts/using-clnag-format/" class="pagination-single__left">
+      <a href="http://sam4uk.site/en/posts/syntax-highlight/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Форматуванняя коду ClangFormat</div>      
+        <div class="pagination-single__left-title">Підсвідка синтаксису</div>      
       </a>
     
     <div class="grow"></div>
@@ -3248,6 +3146,8 @@ document.addEventListener('DOMContentLoaded', function () {
         
       
         
+      
+        
         
           
             
@@ -3258,6 +3158,22 @@ document.addEventListener('DOMContentLoaded', function () {
       
         
       
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+        
+          
+            
+              <a href="http://sam4uk.site/posts/10-steps-to-bloging/" data-lang="uk" class="dropdown-item">Українська</a>
+            
+          
         
       
     

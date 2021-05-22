@@ -597,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
+        var selectedThemeVariant = e.target.text.trim();
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -1453,9 +1453,7 @@ if (!doNotTrack) {
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/en/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
-    </a>
+    &nbsp;&nbsp;
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
@@ -1534,6 +1532,18 @@ if (!doNotTrack) {
       
         <li class="navbarm__menu--item ">
           <a href="/en/posts">Дописи</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/en/archive">Архів</a>
         </li>
       
       
@@ -1624,6 +1634,14 @@ if (!doNotTrack) {
   
   
   
+  <a href="/en/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Архів</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/en/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Про мене</a>
   
   
@@ -1669,32 +1687,154 @@ if (!doNotTrack) {
   
     <main class="resume__section" data-dir="ltr">
       <aside class="resume__section--side">
-        <div class="resume__section--sectiontitle"></div>
+        <div class="resume__section--sectiontitle">Технік-випробувач</div>
       </aside>
       
       <article class="resume__section--main">
         
           <div class="resume__section--title">
             
-              перша робота
+              ТОВ Octopus Enrgy
               <div class="grow"></div>
             
             
               <span class="resume__section--meta">
-                Jan, 2017
+                Feb, 2020
               </span>
             
             
               
                 <span class="resume__section--meta">
-                  &nbsp;~&nbsp;Jan, 2017
+                  &nbsp;~&nbsp;Feb, 2020
                 </span>
               
             
           </div>
           
             <div class="resume__section--subtitle">
-              subtitle
+              Київ
+            </div>
+          
+          
+            <div class="single__contents resume__section--contents" data-ani="true">
+              <h1 id="h1">h1</h1>
+<h2 id="h2">h2</h2>
+<h3 id="h3">h3</h3>
+<ol>
+<li>hele</li>
+<li>dasg</li>
+<li>125</li>
+</ol>
+<ul>
+<li>bbb</li>
+<li>eee</li>
+<li>qqq</li>
+</ul>
+<blockquote>
+<p>asdignasg</p>
+</blockquote>
+<p><a href="https://google.com">heeeee</a></p>
+
+            </div>
+          
+        
+          <div class="resume__section--title">
+            
+              sectionTitle2
+              <div class="grow"></div>
+            
+            
+            
+              
+            
+          </div>
+          
+            <div class="resume__section--subtitle">
+              sectionSubtitle2
+            </div>
+          
+          
+            <div class="single__contents resume__section--contents" data-ani="true">
+              <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+            </div>
+          
+        
+          <div class="resume__section--title">
+            
+              sectionTitle3
+              <div class="grow"></div>
+            
+            
+            
+              
+            
+          </div>
+          
+            <div class="resume__section--subtitle">
+              sectionSubtitle3
+            </div>
+          
+          
+        
+      </article>
+    </main>
+  
+    <main class="resume__section" data-dir="ltr">
+      <aside class="resume__section--side">
+        <div class="resume__section--sectiontitle">myTitle2</div>
+      </aside>
+      
+      <article class="resume__section--main">
+        
+          <div class="resume__section--title">
+            
+              sectionTitle2-1
+              <div class="grow"></div>
+            
+            
+            
+              
+            
+          </div>
+          
+            <div class="resume__section--subtitle">
+              sectionSubtitle2-1
+            </div>
+          
+          
+        
+          <div class="resume__section--title">
+            
+              sectionTitle2-2
+              <div class="grow"></div>
+            
+            
+            
+              
+            
+          </div>
+          
+            <div class="resume__section--subtitle">
+              sectionSubtitle2-2
+            </div>
+          
+          
+        
+          <div class="resume__section--title">
+            
+              sectionTitle2-3
+              <div class="grow"></div>
+            
+            
+            
+              
+            
+          </div>
+          
+            <div class="resume__section--subtitle">
+              sectionSubtitle2-3
             </div>
           
           
@@ -1737,6 +1877,8 @@ if (!doNotTrack) {
         
       
         
+      
+        
         
           
             
@@ -1747,6 +1889,22 @@ if (!doNotTrack) {
       
         
       
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+        
+          
+            
+              <a href="http://sam4uk.site/resume/" data-lang="uk" class="dropdown-item">Українська</a>
+            
+          
         
       
     
