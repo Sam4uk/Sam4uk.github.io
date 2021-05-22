@@ -14,25 +14,23 @@
     <managingEditor>sto.ukr.net@gmail.com (Sam4uk)</managingEditor>
     <webMaster>sto.ukr.net@gmail.com (Sam4uk)</webMaster>
     <copyright>©2019-2021, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 18 Dec 2019 10:33:41 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://sam4uk.site/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Syntax highlighting</title>
-        <link>http://sam4uk.site/en/posts/syntax-highlight/</link>
-        <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
+        <title>Десять кроків до особистого блогу на Github Pages.</title>
+        <link>http://sam4uk.site/en/posts/10-steps-to-bloging/</link>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
         <author>sto.ukr.net@gmail.com (Sam4uk)</author>
-        <atom:modified>Wed, 18 Dec 2019 10:33:41 +0900</atom:modified>
-        <guid>http://sam4uk.site/en/posts/syntax-highlight/</guid>
-        <description>Code Syntax Highlighting Verify the following code blocks render as code blocks and highlight properly.
-More about tuning syntax highlighting is the Hugo documentation.
-Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; --- /path/to/new	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; *************** *** 1 **** ! This is a line. --- 1 --- ! This is a replacement line. It is important to spell -removed line +new line   *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; --- /path/to/new	&amp;#39;&amp;#39;timestamp&amp;#39;&amp;#39; *************** *** 1 **** !</description>
+        <atom:modified>Mon, 07 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>http://sam4uk.site/en/posts/10-steps-to-bloging/</guid>
+        <description>Крок перший. Підготовка інструментів. Крок другий. Репозиторій на Github. Настав час зареєструватися на GitHub, якщо ви цьго ще не зробили. Після створи репозиторій. Ім&#39;я репозиторію має відповідати шаблону &amp;lt;OWNER&amp;gt;.github.io, де &amp;lt;OWNER&amp;gt;, тут та надалі ім&#39;я твого облікового запису чи організації, якій належить репозиторій. Репозиторій має бути порожнім та публічним. Сняти галочку з Initialize this repository with a README, а перемикачі Add .gitgnore та Add a license виставити в положення None.</description>
         
-        <dc:creator>Jeus</dc:creator>
-        <media:content url="http://sam4uk.site/images/feature2/color-palette.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <dc:creator>Vitaly Khabarov</dc:creator>
+        
         
         
         
@@ -41,11 +39,27 @@ Diff 1 2 3 4 5 6 7 8 9 10  *** /path/to/original	&amp;#39;&amp;#39;timestamp&amp
               <category>hugo</category>
             
           
+            
+              <category>github pages</category>
+            
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>personal brand</category>
+            
+          
         
         
           
             
               <category>hugo</category>
+            
+          
+            
+              <category>tutorials</category>
             
           
         

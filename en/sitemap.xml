@@ -13,78 +13,13 @@
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/publication/article/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/publication/book/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/publication/misc/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/publication/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/tags/shortcode/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/shortcodes/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/tags/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk_ua"
-                href="http://sam4uk.site/uk_ua/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://sam4uk.site/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://sam4uk.site/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/showcase/hugo/</loc>
-    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/showcase/</loc>
-    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
+    <loc>http://sam4uk.site/en/tags/bash/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://sam4uk.site/en/categories/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk_ua"
@@ -108,28 +43,18 @@
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/css/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/series/linux/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/html/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/tags/markdown/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/markdown-syntax/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/tags/linux/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://sam4uk.site/en/series/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk_ua"
@@ -153,143 +78,173 @@
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/categories/syntax/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/tags/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk_ua"
+                href="http://sam4uk.site/uk_ua/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="back"
+                href="http://sam4uk.site/back/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://sam4uk.site/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sam4uk.site/en/tags/"
+                />
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/themes/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/tags/terminal/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/categories/themes/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/categories/tutorials/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/series/themes-guide/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/tags/zsh/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/privacy/</loc>
-    <lastmod>2019-12-19T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/posts/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/posts/rich-content/</loc>
-    <lastmod>2019-12-19T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/posts/oh_my_zsh/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/shortcodes/</loc>
-    <lastmod>2019-12-19T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/tags/ibus/</loc>
+    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/posts/zoom_ibus/</loc>
+    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/tags/mint/</loc>
+    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/tags/zoom/</loc>
+    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/tags/blog/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/tags/c/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/tags/clang-format/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/tags/cpp/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/tags/github-pages/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://sam4uk.site/en/tags/hugo/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="back"
+                href="http://sam4uk.site/back/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sam4uk.site/en/tags/hugo/"
+                />
   </url>
   
   <url>
     <loc>http://sam4uk.site/en/categories/hugo/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="back"
+                href="http://sam4uk.site/back/categories/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sam4uk.site/en/categories/hugo/"
+                />
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/posts/syntax-highlight/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <loc>http://sam4uk.site/en/tags/personal-brand/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/posts/math-typesetting/</loc>
-    <lastmod>2019-12-17T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/posts/10-steps-to-bloging/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/amoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/posts/using-clnag-format/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/bamoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/publication/article/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/emoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/publication/book/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/posts/emoji-support/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/publication/misc/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/gamoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/publication/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/tags/namoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/showcase/hugo/</loc>
+    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sam4uk.site/en/categories/diagram/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-viz/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-wavedrom/</loc>
-    <lastmod>2019-11-18T18:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-chartjs/</loc>
-    <lastmod>2019-11-18T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-js-sequence-diagrams/</loc>
-    <lastmod>2019-11-18T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/tags/diagram/</loc>
-    <lastmod>2019-11-17T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-mermaid/</loc>
-    <lastmod>2019-11-17T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/categories/math/</loc>
-    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-mathjax/</loc>
-    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-katex/</loc>
-    <lastmod>2019-11-15T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sam4uk.site/en/posts/test-flowchart/</loc>
-    <lastmod>2019-11-14T12:00:06+09:00</lastmod>
+    <loc>http://sam4uk.site/en/showcase/</loc>
+    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
   </url>
   
   <url>
@@ -347,13 +302,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="http://sam4uk.site/ko/"
+                hreflang="back"
+                href="http://sam4uk.site/back/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/"
+                hreflang="ko"
+                href="http://sam4uk.site/ko/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -365,6 +320,16 @@
   <url>
     <loc>http://sam4uk.site/en/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk_ua"
+                href="http://sam4uk.site/uk_ua/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sam4uk.site/en/about/"
+                />
   </url>
   
   <url>
@@ -383,7 +348,16 @@
   </url>
   
   <url>
+    <loc>http://sam4uk.site/en/contact/</loc>
+  </url>
+  
+  <url>
     <loc>http://sam4uk.site/en/tags/index/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="back"
+                href="http://sam4uk.site/back/tags/index/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -394,6 +368,10 @@
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/index/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://sam4uk.site/en/resume/</loc>
   </url>
   
 </urlset>
