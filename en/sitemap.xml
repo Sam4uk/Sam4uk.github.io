@@ -27,11 +27,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/bash/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/bash/"
                 />
@@ -72,11 +67,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/series/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/series/linux/"
                 />
@@ -89,11 +79,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/linux/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -177,11 +162,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/terminal/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/terminal/"
                 />
@@ -197,11 +177,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/categories/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/categories/tutorials/"
                 />
@@ -214,11 +189,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/zsh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/zsh/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -252,11 +222,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/ibus/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/ibus/"
                 />
@@ -287,11 +252,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/mint/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/mint/"
                 />
@@ -304,11 +264,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/zoom/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/zoom/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -327,11 +282,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/c/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/c/"
                 />
@@ -344,11 +294,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/c#/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/c#/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -367,11 +312,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/clang-format/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/clang-format/"
                 />
@@ -384,11 +324,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/cpp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/cpp/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -407,11 +342,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/java/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/java/"
                 />
@@ -424,11 +354,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/javascript/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/javascript/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -447,11 +372,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/proto/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/proto/"
                 />
@@ -464,11 +384,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/blog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -487,11 +402,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/github-pages/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/tags/github-pages/"
                 />
@@ -504,11 +414,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -527,11 +432,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/categories/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://sam4uk.site/en/categories/hugo/"
                 />
@@ -544,11 +444,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/tags/personal-brand/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/tags/personal-brand/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -579,11 +474,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://sam4uk.site/series/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="back"
-                href="http://sam4uk.site/back/series/demo/"
                 />
     <xhtml:link
                 rel="alternate"
