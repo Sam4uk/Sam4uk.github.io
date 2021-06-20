@@ -1,7 +1,7 @@
 ---
 title: "resume"
 date: 12-05-21
-description: моє резюме
+description: Самчук Тарас Олександрович
 type: resume
 enableToc: false
 header:
@@ -14,7 +14,6 @@ header:
     email: "sto.ukr.net@gmail.com" 
     phone: "+38 (063) 76543 87"
     website: "https://sam4uk.site"
-    telegram: sf
     addr: 
 items:
 #==============================================================================
@@ -24,20 +23,22 @@ items:
     sections:
       - title: C++ ADVANCE
         subtitle: ITEA
-        startDate: 2020-02-09
-        endDate: 2020-02-10
+        startDate: 2020-05-01
+        endDate: 2020-07-10
         contents: | 
-           Поглибення знань `C++` та об'єктно-орієнтованого програмування.
-
+           Поглибення знань `C++` та об'єктно-орієнтованого програмування
       - title: C++ BASE
         subtitle: ITEA
-        startDate: 2020-02-09
-        endDate: 2020-02-10
+        startDate: 2020-02-01
+        endDate: 2020-05-01
         contents: | 
-           Вивчення основ `C++` та об'єктно-орієнтованого програмування.
+           Вивчення основ мови програмування `C++`: цикли, структури даних,
+           робота з пам'ятю. Теорія та практика систем керування версіями.
+           Основи кросплатформної розробки та системи збірки `make` та`cmake`
+           Відмінності розробки для Win та Unix систем.
 
       - title: Технік з експлуатації систем обробки інформації та прийняття рішень
-        subtitle: ITEA
+        subtitle: ВПУ-1 м.Рівне
         startDate: 2003-02-09
         endDate: 2005-02-10
         contents: | 
@@ -48,7 +49,7 @@ items:
            та азів мов програмування C/C++..
 
       - title: Операто електронно обчислювальних та обчислювальних машин
-        subtitle: ITEA
+        subtitle: ВПУ-1 м.Рівне
         startDate: 2002-02-09
         endDate: 2003-02-10
         contents: | 
@@ -71,14 +72,22 @@ items:
         contents: | 
            Програма демонстрації хімічного процесу електролітичної дисоціації.
            Програма написана на об'єктно-орієнтованій мові програмування.
+           Додаток демонстрував та пояснював процеси, що відбуваються у розчині
+           електроліту.
 
       - title: CorelDrawText
         subtitle: Delphi(Pascal)
         startDate: 2003-04-01
         contents: | 
            Навчально тестуюча програма "Робота з тектом у векторному редакторі
-           CorelDraw5.0"
-
+           CorelDraw5.0".
+           Подавалися текстові та гарфічні матеріали, які допомагали зрозуміти
+           основні способи та принципи обробки текстово-графічної інформації у
+           редакторі.
+           Після чого можна було пройти серію тестових завдань з метою перевірки
+           рівня знань. Завдання мали вигляд тесту де потрібно було обрати одну
+           або кілька відповідей. Тестові питання обиралися випадковим чином, а
+           відповіді зберігалися в окремих файлах.
       - title: '"Малювалка"'
         subtitle: Pascal
         startDate: 2003-10-01
@@ -88,8 +97,60 @@ items:
            Малювання колоьорових картинок у стилі іграшки "Чарівний екран"
            <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/EtchASketch10-23-2004.jpg" alt="drawing" style="width:200px;"/>
            
+           Користувачеві проповалося натискати "гарячі клавіші", які змінювали
+           стиль, колір та швидкість переміщення "пера". Напрямок переміщення
+           керувався з цифрової клавіатури. Графічний матніпулятор не був
+           задіяний.
 
-  # - title: "Досвід"
+  - title: "Загальний досвід роботи"
+    sections:
+      - title: Монтер електрозв'язку
+        subtitle: Lumina Network
+        startDate: 2015-11-01
+        # endDate: 2020-02-10
+        contents: | 
+           Монтаж та налаштування абонетських точок доступу до мережі інтернет з
+           використанням технологій EtherNet та GPON: прокладання
+           оптоволоконного кабелю до абонента від найближчої герметичної коробки
+           та розварювання з'єднань оптичних волокон з коннекторами та
+           спілтерами.
+           Налаштування роутерів по статичній та динамічних IP адресах.
+      - title: Технік випробувач
+        subtitle: Octopus Energy
+        startDate: 2015-11-01
+        endDate: 2020-02-10
+        contents: | 
+           Резервування та облiк запчастин та ремкомлектiв 
+           для теплового насосу складський облік). Познайомився з принципами 
+           та фiзичними процесами роботи теплових насосiв. 
+           Також отримав навик роботи з газовим (киснево-пропановим)
+           паяльником. Збирання вузлів та обладнання теплового насосу,
+           передпродажна підготовка, та тестування обладнання і гарантійне
+           обслуговування випарника та конденсатора.
+      - title: Оператор - технолог
+        subtitle: Яблунівські печериці
+        startDate: 2011-11-01
+        endDate: 2015-02-10
+        contents: | 
+           Навчився стежити та контролювати мікроклимат у закритих приміщеннях
+           для підтримання оптимальних умов при вирощуванні та збиранні урожаю
+           грибів (шапміньйонів).
+      - title: Вигрузчик цегли
+        subtitle: Богданівський цегельний завод
+        startDate: 2009-11-01
+        endDate: 2011-02-10
+        contents: | 
+           Навантаження та розвантаження готової продукції та ішних вантажів за
+           допомогою козлового крану. Отримав навики оператора козлового
+           крану та стропольщика.
+      - title: Оператор ЕОМ
+        subtitle: Фаворит
+        startDate: 2006-11-01
+        endDate: 2007-02-10
+        contents: | 
+           Оформлення та друк товаро-транспортних накладних на отриману
+           сировину та готову продукцію.
+      
   # - title: "Інший досвід"
   - title: "Інша інформація"
     sections:
@@ -101,67 +162,5 @@ items:
            на домашньому комп'ютері. Я працюю з `GNU/Linux` операційними системи
            (`Ubuntu 17.04`, `Linux Mint 19`, `Linux Mint 20`) на початковому рівні.
 
-  #       subtitle: Курсовий проект
-  #       startDate: 2020-02-09
-  #       endDate: 2020-02-10
-  #       contents: | 
-  #          Поглибення знань `C++` та об'єктно-орієнтованого програмування.
-  #   sections:
-  #     - title: ТОВ Octopus Enrgy
-  #       subtitle: Київ
-  #       startDate: 2020-02-09T20:13:59+09:00
-  #       # endDateText: current
-  #       endDate: 2020-02-10T20:13:59+09:00
-  #       contents: | 
-  #         # h1
-  #         ## h2
-  #         ### h3
-  #         1. hele
-  #         2. dasg
-  #         3. 125
-  #         - bbb
-  #         - eee
-  #         - qqq
-  #         > asdignasg
-
-  #         [heeeee](https://google.com)
-
-  #     - title: "Оператор-технолог"
-  #       subtitle: sectionSubtitle2
-  #       endDate: 2020-02-07T20:13:59+09:00
-  #       startDate: 2020-02-07T20:13:59+09:00
-  #       contents: | 
-  #         Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-
-  #         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-  #     - title: sectionTitle3
-  #       subtitle: sectionSubtitle3
-  #       date: 2020-02-05T20:13:59+09:00
-  #       contents: | 
-        
-  # - title: myTitle2
-  #   sections:
-  #     - title: sectionTitle2-1
-  #       subtitle: sectionSubtitle2-1
-  #       date: 2020-02-09T20:13:59+09:00
-  #       contents: | 
-        
-  #     - title: sectionTitle2-2
-  #       subtitle: sectionSubtitle2-2
-  #       date: 2020-02-07T20:13:59+09:00
-  #       contents: | 
-        
-  #     - title: sectionTitle2-3
-  #       subtitle: sectionSubtitle2-3
-  #       date: 2020-02-05T20:13:59+09:00
-  #       contents: | 
-        
-#   - title: 
-#     sections:
-#       - title: Друга робота
-#         subtitle: опис
-#         startDate: "2017-01-07T00:00:00Z"
-#         endDateText: текст
-#         endDate: "2017-01-07T00:00:00Z"
-#         contents: що | 
+ #
 ---
